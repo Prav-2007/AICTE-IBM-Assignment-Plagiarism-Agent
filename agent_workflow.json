@@ -1,0 +1,33 @@
+{
+  "agent_name": "Assignment Plagiarism Intelligence Agent",
+  "problem_statement_id": "PS-10",
+  "platform": "IBM watsonx Orchestrate",
+  "foundation_model": "ibm/granite-3-8b-instruct",
+  "architecture": {
+    "orchestration": "IBM watsonx Orchestrate Native Agent",
+    "grounding": "RAG Knowledge Base (course_reference_notes.txt)",
+    "guardrails": "Academic Integrity & Ethical Evaluation Policy"
+  },
+  "workflow_steps": [
+    {
+      "step": 1,
+      "node": "Input Ingestion",
+      "action": "Collect student assignment text and course context"
+    },
+    {
+      "step": 2,
+      "node": "RAG Knowledge Retrieval",
+      "action": "Query uploaded course_reference_notes.txt for semantic overlap"
+    },
+    {
+      "step": 3,
+      "node": "IBM Granite Reasoning",
+      "action": "Compute originality score, flag overlapping segments, and generate citation guidance"
+    },
+    {
+      "step": 4,
+      "node": "Structured Output",
+      "action": "Return formatted integrity report with faculty review disclaimer"
+    }
+  ]
+}
