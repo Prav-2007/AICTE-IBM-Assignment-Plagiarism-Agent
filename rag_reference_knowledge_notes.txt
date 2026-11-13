@@ -1,0 +1,4 @@
+Course Module: Enterprise Agentic AI & Foundation Models (AICTE-IBM Reference Notes)
+1. Foundation models such as IBM Granite are transformer-based architectures trained on enterprise and technical datasets for reasoning, summarization, and structured generation.
+2. Retrieval-Augmented Generation (RAG) grounds large language model outputs in verified institutional documents, reducing hallucination and ensuring traceable answers.
+3. Agentic AI systems differ from basic chatbots by combining goal-oriented planning, tool execution, memory, and policy guardrails to complete multi-step workflows autonomously.
