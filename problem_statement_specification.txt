@@ -1,0 +1,5 @@
+Problem Statement ID: PS-10
+Title: AI-Driven Plagiarism Intelligence for Student Assignments
+
+Problem Description:
+Traditional plagiarism checkers rely on literal keyword matching and fail to detect conceptual paraphrasing or unattributed synthesis against institutional lecture notes. Educators need an Agentic AI solution built on IBM watsonx Orchestrate and IBM Granite that grounds evaluations in verified course material via Retrieval-Augmented Generation (RAG), calculates originality scores (0% to 100%), highlights overlapping passages, and generates constructive citation feedback with human-in-the-loop faculty review disclaimers.
